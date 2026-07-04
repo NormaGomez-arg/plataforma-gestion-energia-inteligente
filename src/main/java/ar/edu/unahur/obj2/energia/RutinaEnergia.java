@@ -28,7 +28,7 @@ public class RutinaEnergia implements OperacionEnergia {
 
             while (i < this.operaciones.size()) {
                 this.operaciones.get(i).ejecutar();
-                i++;
+                i = i + 1;
             }
 
             this.operaciones.clear();
